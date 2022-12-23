@@ -1,8 +1,12 @@
+import PokemonCard from "./components/PokemonCard";
 
 function App() {
   return (
     <div className="App">
-        <h1></h1>
+        <header className="App-header">
+          <PokemonCard/>
+          
+        </header>
     </div>
   );
 }
